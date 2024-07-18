@@ -1,6 +1,8 @@
+#Esse arquivo é a fonte da verdade para as propriedades do sistema microservice. [ Git ops (maybe?) ]
+
 transacoes: 
-  events: "sse-streams"
-  duration: "2"
+  events: "transferencias"
+  duration: "3"
 
 limites: 
   url: http://localhost:8086
